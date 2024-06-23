@@ -30,6 +30,7 @@ p{
     border-radius: 10px;
     padding: 10px;
     display: inline-block;
+    padding-top: 70px;
 }
 #gallery h2{
     color: white;
@@ -37,11 +38,12 @@ p{
 #gallery .row{
     width: 100%;
     height: 200px;
+
 }
 .column{
     float: left;
     width: auto;
-
+    margin-left: 100px;
 }
 .column img{
     object-fit: cover;
@@ -52,6 +54,7 @@ p{
 #about, #projects{
 margin-left: 20%;
 margin-right: 20%;
+padding-top: 70px;
 }
 #creators li{
     color: white;
@@ -61,7 +64,11 @@ margin-right: 20%;
 nav{
     text-align: right;
     display: inline;
-    width: 100%;
+    width: 93%;
+    position: fixed;
+    top: 0;
+    background: rgb(0, 0, 0);
+    padding-right: 70px;
 }
 nav li{
     color: white;
@@ -77,3 +84,6 @@ nav a{
     text-decoration: none;
     color: white;
 }
+.content{
+    padding-top: 0px;
+} 
